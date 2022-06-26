@@ -2,7 +2,7 @@
 
 ## Installation
 
-[![asciicast](https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9.svg)](https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9)
+<a href="https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9" target="_blank"><img src="https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9.svg" /></a>
 
 ### Archlinux
 
