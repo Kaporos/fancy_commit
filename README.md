@@ -2,6 +2,11 @@
 
 ## Installation
 
+
+<script id="asciicast-0Ttau0hppgC9UQlTWN0OWeLM9" src="https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9.js" async></script>
+
+
+
 ### Archlinux
 
 This package can be easily built using ArchLinux, just go in release panel and download archpkg.tar.gz
