@@ -1,5 +1,8 @@
 use dialoguer::{console::Term, theme::ColorfulTheme, Confirm, Input, Select};
-use std::{env, fs};
+use std::{
+    env, fs,
+    process::{exit, Command},
+};
 
 struct CommitType {
     name: &'static str,
@@ -54,10 +57,20 @@ fn if_confirmed_string(confirm_prompt: &str, content_prompt: &str, multiline: bo
 fn main() {
     let args: Vec<String> = env::args().collect();
     let file_name = args
-        .get(1)
+        .get(args.len() - 1)
         .unwrap_or_else(|| panic!("You have to provide a file to edit"));
     if !file_name.contains("COMMIT") {
-        panic!("Should only be used with git")
+        if args.len() <= 2 {
+            panic!("You're asking to edit a file that isn't a commit and you didn't specify fallback editor");
+        } else {
+            Command::new(args[args.len() - 2].clone())
+                .args([file_name])
+                .spawn()
+                .expect("Failed to start !")
+                .wait()
+                .expect("Failed to start");
+            exit(0)
+        }
     }
     println!("{:?}", args);
     let term = Term::stdout();
