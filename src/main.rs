@@ -72,7 +72,6 @@ fn main() {
             exit(0)
         }
     }
-    println!("{:?}", args);
     let term = Term::stdout();
     term.write_line("Fancy Git Commit v0.1").unwrap();
     term.write_line("What's your commit's type ?").unwrap();
