@@ -1,8 +1,10 @@
 # Fancy Commit
 
-## Installation
 
 <a href="https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9" target="_blank"><img src="https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9.svg" /></a>
+
+## Installation
+
 
 ### Archlinux
 
