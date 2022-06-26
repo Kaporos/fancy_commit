@@ -2,10 +2,7 @@
 
 ## Installation
 
-
-<script id="asciicast-0Ttau0hppgC9UQlTWN0OWeLM9" src="https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9.js" async></script>
-
-
+[![asciicast](https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9.svg)](https://asciinema.org/a/0Ttau0hppgC9UQlTWN0OWeLM9)
 
 ### Archlinux
 
